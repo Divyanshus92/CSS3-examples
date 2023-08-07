@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    transition: transform 1s ease-in-out;
+}
+
+.tile:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,26 @@
+.p{
+    background-color: yellow;
+    
+}
+.p1{
+    background-image: url(image.png);
+    background-position: fixed;
+}
+.p2{
+    background-image: linear-gradient(to right, red , yellow);
+}
+.p3{
+    background-image: url(pattern.jpg);
+    background-repeat: repeat;
+}
+.flex-container {
+    display: flex;
+    background-color: grey;
+  }
+  
+  .flex-container > div {
+    background-color: whitesmoke;
+    margin: 2px;
+    padding: 20px;
+    font-size: 20px;
+  }
